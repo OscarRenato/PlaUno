@@ -11,6 +11,9 @@
       <Version>6.2.11</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.UI.Xaml" Version="2.5.0" />
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Uno.Core" Version="2.3.0" />
     <PackageReference Include="Uno.UI" Version="3.7.3" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
@@ -19,7 +22,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>1f7f269f-a998-4ba7-9fb1-e301717450e6</ProjectGuid>
+    <ProjectGuid>{1F7F269F-A998-4BA7-9FB1-E301717450E6}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PlaUno</RootNamespace>
